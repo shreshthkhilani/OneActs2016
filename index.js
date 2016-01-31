@@ -77,7 +77,7 @@ $(document).ready(function() {
     $("#navUpcoming2").addClass("active");
 
     $("#venmo-btn").click(function() {
-      var url = "https://venmo.com/?txn=pay&recipients=Shreshth&audience=private";
+      var url = "https://venmo.com/?txn=pay&recipients=MikeyMiller&audience=private";
       var tcks = $("#ticketNumber").val();
       var amt = tcks * 8;
       if (tcks >= 6)
