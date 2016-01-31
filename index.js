@@ -16,19 +16,59 @@ $(document).ready(function() {
 
     var r = getUrlParameter("r");
 
-    if (r === 'Aashish+Lalani' || r === 'Anaya+Jhaveri' || 
-      r === 'Brian+Mendoza' || r === 'Daniel+Katz' || 
-      r === 'Elijah+Cory' || r === 'Halima+Said' || 
-      r === 'Justin+Lee' || r === 'Kuhuk+Shroff' || 
-      r === 'Lucas+Silva' || r === 'Meerabelle+Jesuthasan' || 
-      r === 'Monisha+Gulabani' || r === 'Olivia+Ly' || 
-      r === 'Pallavi+Surana' || r === 'Percia+Verlin' || 
-      r === 'Priyanshi+Pokharna' || r === 'Rohan+Bhide' || 
-      r === 'Ryan+Sharafuddin' || r === 'Sanika+Khare' || 
-      r === 'Sanjana+Sarkar' || r === 'Sarah+Elnahal' || 
-      r === 'Shaishvi+Shrivastava' || r === 'Shreshth+Khilani' || 
-      r === 'Shreya+Zaveri' || r === 'Taha+Tariq' || 
-      r === 'Vedika+Gopal') {
+    if (r === 'Adam+deLisle' || 
+        r === 'Adam+Mansell' || 
+        r === 'Ahmed+Mohieldin' || 
+        r === 'Alec+Stablow' || 
+        r === 'Alicia+Lu' || 
+        r === 'Ashleigh+Morgan' || 
+        r === 'Benjamin+Behrend' || 
+        r === 'Blake+London' || 
+        r === 'Brian+Mendoza' || 
+        r === 'Brittany+Bing' || 
+        r === 'Carla+Hoge' || 
+        r === 'Carly+Miron' || 
+        r === 'Chad+Haddad' || 
+        r === 'Claris+Park' || 
+        r === 'Danny+Fradin' || 
+        r === 'David+deLacoste-Azizi' || 
+        r === 'Drew+Hawkinson' || 
+        r === 'Dylan+Zuniga' || 
+        r === 'Elaina+Joseph' || 
+        r === 'Elijah+Cory' || 
+        r === 'Haley+Mankin' || 
+        r === 'Haley+Weiss' || 
+        r === 'Harrison+Pharamond' || 
+        r === 'Izzy+Korostoff' || 
+        r === 'Jaimie+Zhang' || 
+        r === 'Jenna+Miller' || 
+        r === 'Jordan+Miller' || 
+        r === 'Josh+Ogunleye' || 
+        r === 'Karyll+Davis' || 
+        r === 'Kelsey+Plona' || 
+        r === 'Kevin+McNeil' || 
+        r === 'Kyla+Balkan' || 
+        r === 'Meerie+Jesuthasan' || 
+        r === 'Meghan+Swyryn' || 
+        r === 'Michael+Jonathan' || 
+        r === 'Michaela+Tinkey' || 
+        r === 'Mikey+Miller' || 
+        r === 'Noah+Lee' || 
+        r === 'Olivia+Horn' || 
+        r === 'Paddy+Loftus' || 
+        r === 'Paul+Batterman' || 
+        r === 'Peter+Beik' || 
+        r === 'Peter+Snell' || 
+        r === 'Ralphie+Flores' || 
+        r === 'Sara+Sachs' || 
+        r === 'Shreshth+Khilani' || 
+        r === 'Sonya+Kaiser' || 
+        r === 'Sophia+Griffith-Gorgati' || 
+        r === 'Sophie+Pu' || 
+        r === 'Susanna+Jaramillo' || 
+        r === 'Tahir+Bell' || 
+        r === 'Tess+Speranza' || 
+        r === 'Zoe+Stoller') {
       r = r.replace('+',' ');
       $('#refname').val(r);
     }
