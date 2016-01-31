@@ -79,9 +79,9 @@ $(document).ready(function() {
     $("#venmo-btn").click(function() {
       var url = "https://venmo.com/?txn=pay&recipients=MikeyMiller&audience=private";
       var tcks = $("#ticketNumber").val();
-      var amt = tcks * 8;
-      if (tcks >= 6)
-        amt = tcks * 7;
+      var amt = tcks * 10;
+      /*if (tcks >= 6)
+        amt = tcks * 7;*/
       var name = $("#nameInput").val();
       if (name == "") {
         $("#divName").addClass("has-error");
@@ -94,7 +94,7 @@ $(document).ready(function() {
       var ref = $("#refname").val();
       var day = $("input[name=optionsRadios]:checked").val();
       var amount = "&amount=" + amt;
-      var note = "&note=Naatak%20Show%20Tickets%20(" + encodeURIComponent(name) + "%2C" + tcks + "%2C" + day + "%2C" + encodeURIComponent(ref) + ")";
+      var note = "&note=OneActs2016%20Tickets%20(" + encodeURIComponent(name) + "%2C" + tcks + "%2C" + day + "%2C" + encodeURIComponent(ref) + ")";
       url = url + amount + note;
       window.location.href = url;
       return false;
